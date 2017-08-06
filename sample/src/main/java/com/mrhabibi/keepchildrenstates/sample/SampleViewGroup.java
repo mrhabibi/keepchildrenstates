@@ -10,6 +10,7 @@ import android.widget.LinearLayout;
 import com.mrhabibi.keepchildrenstates.api.KeepChildrenStates;
 
 import org.androidannotations.annotations.EViewGroup;
+import org.androidannotations.annotations.InstanceState;
 
 /**
  * Created by mrhabibi on 8/6/17.
@@ -17,6 +18,10 @@ import org.androidannotations.annotations.EViewGroup;
 @KeepChildrenStates
 @EViewGroup(R.layout.view_sample_view_group)
 public class SampleViewGroup extends LinearLayout {
+
+    @InstanceState
+    String status;
+
     public SampleViewGroup(Context context) {
         super(context);
     }

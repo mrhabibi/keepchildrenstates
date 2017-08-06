@@ -1,3 +1,26 @@
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'keepchildrenstates'
+
+    publishedGroupId = 'com.mrhabibi'
+    libraryName = 'KeepChildrenStates'
+
+    libraryDescription = 'AndroidAnnotation plugin to keep states of View children of ViewGroup persist when orientation changes'
+
+    siteUrl = 'https://github.com/mrhabibi/keepchildrenstates'
+    gitUrl = 'https://github.com/mrhabibi/keepchildrenstates.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'mrhabibi'
+    developerName = 'Muhammad Rizky Habibi'
+    developerEmail = 'rizkyhabibi09@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 allprojects {
     buildscript {
         repositories {

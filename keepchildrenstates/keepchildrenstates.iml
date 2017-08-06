@@ -28,8 +28,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="keepchildrenstates-api" exported="" />
-    <orderEntry type="library" exported="" name="androidannotations-4.3.0" level="project" />
-    <orderEntry type="library" exported="" name="androidannotations-api-4.3.0" level="project" />
+    <orderEntry type="library" exported="" name="androidannotations-4.3.1" level="project" />
+    <orderEntry type="library" exported="" name="androidannotations-api-4.3.1" level="project" />
     <orderEntry type="library" exported="" name="jcodemodel-2.8.6" level="project" />
     <orderEntry type="library" exported="" name="annotations-2.0.3" level="project" />
   </component>
