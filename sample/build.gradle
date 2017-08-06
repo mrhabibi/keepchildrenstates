@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.1'
+    }
+}
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+
+    defaultConfig {
+        applicationId "com.mrhabibi.keepchildrenstates.sample"
+        minSdkVersion 11
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+ext {
+    androidAnnotationVersion = '4.3.1'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:25.3.1'
+
+    annotationProcessor "org.androidannotations:androidannotations:$androidAnnotationVersion"
+    compile "org.androidannotations:androidannotations-api:$androidAnnotationVersion"
+
+    compile project(':keepchildrenstates-api')
+    annotationProcessor project(':keepchildrenstates-api')
+}
