@@ -4,7 +4,7 @@
 
 AndroidAnnotation plugin to keep states of View children of ViewGroup persist when orientation changes.
 
-This AA plugin fix the problem about keeping ViewGroup's children states (explained here: http://trickyandroid.com/saving-android-view-state-correctly) in very simple way, you just need to add an annotation `@KeepChildrenStates` together with `@EViewGroup` and voila, your problem of saving children state inside ViewGroup has been solved automatically inside AA's generated class.
+This AA plugin fix the problem about keeping ViewGroup's children states (explained here: http://trickyandroid.com/saving-android-view-state-correctly) in very simple way, you just need to add an annotation `@KeepChildrenStates` together with `@EViewGroup` and voila! your problem of saving children state inside ViewGroup has been solved automatically inside AA's generated class.
 
 And this plugin also doesn't break `@InstanceState`, both of them can be attached inside ViewGroup together!
 
@@ -57,7 +57,7 @@ Feel free to create issues and pull requests.
 ## License
 
 ```
-Activity Factory library for Android
+KeepChildrenStates library for Android
 Copyright (c) 2017 Muhammad Rizky Habibi (http://github.com/mrhabibi).
 
 Licensed under the Apache License, Version 2.0 (the "License");
