@@ -35,5 +35,5 @@ dependencies {
     compile "org.androidannotations:androidannotations-api:$androidAnnotationVersion"
 
     compile project(':keepchildrenstates-api')
-    annotationProcessor project(':keepchildrenstates-api')
+    annotationProcessor project(':keepchildrenstates')
 }

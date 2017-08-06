@@ -1,6 +1,6 @@
-package com.bukalapak.android.keepchildrenstates.processor;
+package com.mrhabibi.keepchildrenstates.processor;
 
-import com.bukalapak.android.keepchildrenstates.processor.handler.KeepChildrenStatesHandler;
+import com.mrhabibi.keepchildrenstates.processor.handler.KeepChildrenStatesHandler;
 
 import org.androidannotations.AndroidAnnotationsEnvironment;
 import org.androidannotations.handler.AnnotationHandler;
